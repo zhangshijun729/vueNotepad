@@ -2,7 +2,7 @@
   "name": "todolist",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "JRG-zhangshijun <462895506@qq.com>",
+  "author": "zhangshijun729 <zhangshijun729@163.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
