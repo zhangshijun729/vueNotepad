@@ -53,13 +53,11 @@ export default new Vuex.Store({
         state.activeNote = state.notes[index - 1] || {}
       }
       localStorage.setItem('state', JSON.stringify(state))
-      console.log(22222)
     },
     //切换笔记收藏
     ToggleFavorite(state) {
       state.activeNote.favorite = !state.activeNote.favorite
       localStorage.setItem('state', JSON.stringify(state))
-      console.log(33333)
     },
     //切换显示所有和收藏
     AllOrFavorite(state, show) {
